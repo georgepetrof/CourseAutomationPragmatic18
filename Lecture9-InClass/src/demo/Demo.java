@@ -2,29 +2,30 @@ package demo;
 
 import architecture.Notepad;
 import exceptions.ReplaceFailedException;
+import notepads.ElectronicSecuredNotepad;
 import notepads.SecuredNotepad;
 import notepads.SimpleNotepad;
 
+
+/**
+ * Class Demo is for representing the futures of the Notepade and his variants 
+ * @author George
+ *
+ */
 public class Demo {
 	public static void main(String[] args) {
-		Notepad securedNotepad = new SecuredNotepad("parola");
 		
-		securedNotepad.createPage("Voina i mir1", "mnogo voina1");
-
-		securedNotepad.printAllPages();
 		
-		try {
-			securedNotepad.replaceText(4, "oshte poveche voina");
-		} catch (ReplaceFailedException e) {
-			e.printStackTrace();
-			System.out.println("Emi taq operaciq nqma da q byde replace-a");
-		}
+		SecuredNotepad test1 = new ElectronicSecuredNotepad("0000");
 		
-		securedNotepad.printAllPages();
-
-		securedNotepad.deleteText(4);
+		test1.createPage("Stranica1", "Texta na stranica 1");
+		test1.createPage("Stranica2", "Texta na stranica 2");
+		test1.createPage("Stranica3", "Texta na stranica 3");
+		test1.createPage("Stranica4", "Texta na stranica 4");
 		
-		securedNotepad.printAllPages();
+		test1.printAllPages();
+		
+		
 		
 //		Notepad simpleNotepad = new SimpleNotepad();
 //		simpleNotepad.createPage("Voina i mir1", "mnogo voina1");
