@@ -2,9 +2,9 @@ package Login;
 
 import static org.testng.Assert.assertEquals;
 
-import java.awt.List;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import javax.lang.model.element.Element;
@@ -86,18 +86,21 @@ public class Login {
 
 		WebElement dropDown = this.driver.findElement(By.cssSelector("#input-order-status"));
 		Select orderStatus = new Select(dropDown);
-		java.util.List<WebElement> act_options = orderStatus.getOptions();
+		List<String> act_options = new ArrayList<>();
+		
+		List<WebElement> allOptions = orderStatus.getOptions();
+		for (WebElement curOption : allOptions) {
+			act_options.add(curOption.getText());
+		}
 		
 		
-		
-		java.util.List<String> exp_options = Arrays.asList(new String[] {"Missing Orders", "Canceled",
+		List<String> exp_options = Arrays.asList(new String[] {"","Missing Orders", "Canceled",
 				"Canceled Reversal", "Chargeback", "Complete", "Denied", "Expired", "Failed", "Pending", "Processed",
 				"Processing", "Refunded", "Reversed", "Shipped", "Voided" });
 
 	
 
-		assertEquals(act_options.toString(), exp_options.toString());
-		
+		assertEquals(act_options, exp_options);
 
 	}
 
