@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7793" started-at="2018-10-30T13:06:57Z" finished-at="2018-10-30T13:07:05Z">
+  <suite name="Default suite" duration-ms="4765" started-at="2018-10-31T08:47:24Z" finished-at="2018-10-31T08:47:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7793" started-at="2018-10-30T13:06:57Z" finished-at="2018-10-30T13:07:05Z">
-      <class name="Login.Login">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Login.Login@3aa9e816]" name="setUp" is-config="true" duration-ms="4576" started-at="2018-10-30T15:06:57Z" finished-at="2018-10-30T15:07:02Z">
+    <test name="Default test" duration-ms="4765" started-at="2018-10-31T08:47:24Z" finished-at="2018-10-31T08:47:29Z">
+      <class name="Config.Config">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Config.Config@7006c658]" name="setUp" is-config="true" duration-ms="3753" started-at="2018-10-31T10:47:24Z" finished-at="2018-10-31T10:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="orderStatus()[pri:0, instance:Login.Login@3aa9e816]" name="orderStatus" duration-ms="2524" started-at="2018-10-30T15:07:02Z" finished-at="2018-10-30T15:07:04Z">
+        <test-method status="PASS" signature="changeColor()[pri:0, instance:Config.Config@7006c658]" name="changeColor" duration-ms="330" started-at="2018-10-31T10:47:28Z" finished-at="2018-10-31T10:47:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderStatus -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Login.Login@3aa9e816]" name="tearDown" is-config="true" duration-ms="679" started-at="2018-10-30T15:07:04Z" finished-at="2018-10-30T15:07:05Z">
+        </test-method> <!-- changeColor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Config.Config@7006c658]" name="tearDown" is-config="true" duration-ms="682" started-at="2018-10-31T10:47:28Z" finished-at="2018-10-31T10:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Login.Login -->
+      </class> <!-- Config.Config -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
