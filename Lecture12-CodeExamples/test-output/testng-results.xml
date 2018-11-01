@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8085" started-at="2018-10-29T20:47:58Z" finished-at="2018-10-29T20:48:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8085" started-at="2018-10-29T20:47:58Z" finished-at="2018-10-29T20:48:06Z">
+      <class name="seleniumapi.DragDropTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumapi.DragDropTest@7006c658]" name="setUp" is-config="true" duration-ms="3856" started-at="2018-10-29T22:47:58Z" finished-at="2018-10-29T22:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDragDrop()[pri:0, instance:seleniumapi.DragDropTest@7006c658]" name="testDragDrop" duration-ms="3413" started-at="2018-10-29T22:48:02Z" finished-at="2018-10-29T22:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragDrop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumapi.DragDropTest@7006c658]" name="tearDown" is-config="true" duration-ms="793" started-at="2018-10-29T22:48:05Z" finished-at="2018-10-29T22:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumapi.DragDropTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

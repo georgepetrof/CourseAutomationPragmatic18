@@ -1,0 +1,12 @@
+<suite name="Suite1" verbose="1" >
+ <test name="Regression1">
+    <classes>
+      <class name="bg.pragmatic.lecture13mvn.waits.AlertsTest"/>
+      <class name="bg.pragmatic.lecture13mvn.waits.ElementStateTests"/>
+      <class name="bg.pragmatic.lecture13mvn.waits.ExplicitWaitTest"/>
+      <class name="bg.pragmatic.lecture13mvn.waits.FramesTest"/>
+      <class name="bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest"/>
+      <class name="bg.pragmatic.lecture13mvn.waits.WindowPopupTest"/>
+    </classes>
+  </test>
+</suite>
