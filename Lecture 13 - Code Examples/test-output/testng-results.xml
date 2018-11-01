@@ -1,197 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="18" passed="16">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="68801" started-at="2018-10-31T20:18:39Z" finished-at="2018-10-31T20:19:48Z">
+  <suite name="Default suite" duration-ms="18496" started-at="2018-11-01T14:38:10Z" finished-at="2018-11-01T14:38:28Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="68801" started-at="2018-10-31T20:18:39Z" finished-at="2018-10-31T20:19:48Z">
-      <class name="bg.pragmatic.lecture13mvn.waits.ElementStateTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ElementStateTests@2b80d80f]" name="setUp" is-config="true" duration-ms="3597" started-at="2018-10-31T22:18:45Z" finished-at="2018-10-31T22:18:49Z">
+    <test name="Default test" duration-ms="18496" started-at="2018-11-01T14:38:10Z" finished-at="2018-11-01T14:38:28Z">
+      <class name="homework.Bgmenu">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="setUp" is-config="true" duration-ms="3970" started-at="2018-11-01T16:38:10Z" finished-at="2018-11-01T16:38:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testElementIsEnabled()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ElementStateTests@2b80d80f]" name="testElementIsEnabled" duration-ms="51" started-at="2018-10-31T22:18:49Z" finished-at="2018-10-31T22:18:49Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[LED Lamp Checkbox is disabled!!]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: LED Lamp Checkbox is disabled!!
-	at org.testng.Assert.fail(Assert.java:94)
-	at bg.pragmatic.lecture13mvn.waits.ElementStateTests.testElementIsEnabled(ElementStateTests.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="searchRestaurant1()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="searchRestaurant1" duration-ms="12184" started-at="2018-11-01T16:38:14Z" finished-at="2018-11-01T16:38:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testElementIsEnabled -->
-        <test-method status="PASS" signature="testIsEclementPresent()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ElementStateTests@2b80d80f]" name="testIsEclementPresent" duration-ms="161" started-at="2018-10-31T22:18:49Z" finished-at="2018-10-31T22:18:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsEclementPresent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ElementStateTests@2b80d80f]" name="tearDown" is-config="true" duration-ms="2682" started-at="2018-10-31T22:18:49Z" finished-at="2018-10-31T22:18:52Z">
+        </test-method> <!-- searchRestaurant1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="tearDown" is-config="true" duration-ms="2342" started-at="2018-11-01T16:38:26Z" finished-at="2018-11-01T16:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.ElementStateTests -->
-      <class name="bg.pragmatic.lecture13mvn.waits.WindowPopupTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.WindowPopupTest@256216b3]" name="setUp" is-config="true" duration-ms="3662" started-at="2018-10-31T22:19:37Z" finished-at="2018-10-31T22:19:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testWindowPopup()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.WindowPopupTest@256216b3]" name="testWindowPopup" duration-ms="1514" started-at="2018-10-31T22:19:41Z" finished-at="2018-10-31T22:19:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWindowPopup -->
-        <test-method status="PASS" signature="testWindowPopupUsingContents()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.WindowPopupTest@256216b3]" name="testWindowPopupUsingContents" duration-ms="1633" started-at="2018-10-31T22:19:42Z" finished-at="2018-10-31T22:19:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWindowPopupUsingContents -->
-        <test-method status="PASS" signature="testWindowPopupUsingTitle()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.WindowPopupTest@256216b3]" name="testWindowPopupUsingTitle" duration-ms="1583" started-at="2018-10-31T22:19:44Z" finished-at="2018-10-31T22:19:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWindowPopupUsingTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.WindowPopupTest@256216b3]" name="tearDown" is-config="true" duration-ms="2665" started-at="2018-10-31T22:19:46Z" finished-at="2018-10-31T22:19:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.WindowPopupTest -->
-      <class name="bg.pragmatic.lecture13mvn.waits.FramesTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.FramesTest@d7b1517]" name="setUp" is-config="true" duration-ms="4618" started-at="2018-10-31T22:19:20Z" finished-at="2018-10-31T22:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testFrameByContents()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.FramesTest@d7b1517]" name="testFrameByContents" duration-ms="119" started-at="2018-10-31T22:19:25Z" finished-at="2018-10-31T22:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFrameByContents -->
-        <test-method status="PASS" signature="testFrameByIndex()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.FramesTest@d7b1517]" name="testFrameByIndex" duration-ms="70" started-at="2018-10-31T22:19:25Z" finished-at="2018-10-31T22:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFrameByIndex -->
-        <test-method status="PASS" signature="testFrameWithIdOrName()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.FramesTest@d7b1517]" name="testFrameWithIdOrName" duration-ms="175" started-at="2018-10-31T22:19:25Z" finished-at="2018-10-31T22:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFrameWithIdOrName -->
-        <test-method status="PASS" signature="testIFrame()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.FramesTest@d7b1517]" name="testIFrame" duration-ms="1847" started-at="2018-10-31T22:19:25Z" finished-at="2018-10-31T22:19:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIFrame -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.FramesTest@d7b1517]" name="tearDown" is-config="true" duration-ms="819" started-at="2018-10-31T22:19:27Z" finished-at="2018-10-31T22:19:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.FramesTest -->
-      <class name="bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest">
-        <test-method status="PASS" signature="testWithImplicitWait()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest@28f67ac7]" name="testWithImplicitWait" duration-ms="5002" started-at="2018-10-31T22:19:28Z" finished-at="2018-10-31T22:19:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWithImplicitWait -->
-        <test-method status="FAIL" signature="testWithOutWait()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest@28f67ac7]" name="testWithOutWait" duration-ms="4326" started-at="2018-10-31T22:19:33Z" finished-at="2018-10-31T22:19:37Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Element not found!!]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Element not found!!
-	at org.testng.Assert.fail(Assert.java:94)
-	at bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest.testWithOutWait(ImplicitWaitTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWithOutWait -->
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest -->
-      <class name="bg.pragmatic.lecture13mvn.waits.ExplicitWaitTest">
-        <test-method status="PASS" signature="testExplicitWait()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ExplicitWaitTest@2a18f23c]" name="testExplicitWait" duration-ms="14800" started-at="2018-10-31T22:18:52Z" finished-at="2018-10-31T22:19:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExplicitWait -->
-        <test-method status="PASS" signature="testExplicitWaitByTitle()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ExplicitWaitTest@2a18f23c]" name="testExplicitWaitByTitle" duration-ms="6628" started-at="2018-10-31T22:19:07Z" finished-at="2018-10-31T22:19:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExplicitWaitByTitle -->
-        <test-method status="PASS" signature="testExplicitWaitTitleContains()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.ExplicitWaitTest@2a18f23c]" name="testExplicitWaitTitleContains" duration-ms="6854" started-at="2018-10-31T22:19:13Z" finished-at="2018-10-31T22:19:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExplicitWaitTitleContains -->
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.ExplicitWaitTest -->
-      <class name="bg.pragmatic.lecture13mvn.waits.AlertsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.AlertsTest@357246de]" name="setUp" is-config="true" duration-ms="4616" started-at="2018-10-31T22:18:39Z" finished-at="2018-10-31T22:18:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testConfirmAccept()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.AlertsTest@357246de]" name="testConfirmAccept" duration-ms="190" started-at="2018-10-31T22:18:44Z" finished-at="2018-10-31T22:18:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testConfirmAccept -->
-        <test-method status="PASS" signature="testConfirmDismiss()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.AlertsTest@357246de]" name="testConfirmDismiss" duration-ms="83" started-at="2018-10-31T22:18:44Z" finished-at="2018-10-31T22:18:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testConfirmDismiss -->
-        <test-method status="PASS" signature="testPrompt()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.AlertsTest@357246de]" name="testPrompt" duration-ms="174" started-at="2018-10-31T22:18:44Z" finished-at="2018-10-31T22:18:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPrompt -->
-        <test-method status="PASS" signature="testSimpleAlert()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.AlertsTest@357246de]" name="testSimpleAlert" duration-ms="108" started-at="2018-10-31T22:18:44Z" finished-at="2018-10-31T22:18:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSimpleAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:bg.pragmatic.lecture13mvn.waits.AlertsTest@357246de]" name="tearDown" is-config="true" duration-ms="791" started-at="2018-10-31T22:18:45Z" finished-at="2018-10-31T22:18:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.AlertsTest -->
-    </test> <!-- Regression1 -->
-  </suite> <!-- Suite1 -->
+      </class> <!-- homework.Bgmenu -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

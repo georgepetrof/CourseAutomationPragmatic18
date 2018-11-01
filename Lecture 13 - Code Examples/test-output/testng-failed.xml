@@ -1,38 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]">
-  <test name="Regression1(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="bg.pragmatic.lecture13mvn.waits.ElementStateTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testElementIsEnabled"/>
-        </methods>
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.ElementStateTests -->
-      <class name="bg.pragmatic.lecture13mvn.waits.AlertsTest">
+      <class name="homework.Bgmenu">
         <methods>
           <include name="tearDown"/>
+          <include name="searchRestaurant1"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.AlertsTest -->
-      <class name="bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest">
-        <methods>
-          <include name="testWithOutWait"/>
-        </methods>
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.ImplicitWaitTest -->
-      <class name="bg.pragmatic.lecture13mvn.waits.WindowPopupTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.WindowPopupTest -->
-      <class name="bg.pragmatic.lecture13mvn.waits.FramesTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.FramesTest -->
+      </class> <!-- homework.Bgmenu -->
     </classes>
-  </test> <!-- Regression1(failed) -->
-</suite> <!-- Failed suite [Suite1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="bg.pragmatic.lecture13mvn.waits.ElementStateTests">
+      <class name="homework.Bgmenu">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testElementIsEnabled"/>
+          <include name="searchRestaurant1"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- bg.pragmatic.lecture13mvn.waits.ElementStateTests -->
+      </class> <!-- homework.Bgmenu -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
