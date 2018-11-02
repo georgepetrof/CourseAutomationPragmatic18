@@ -33,25 +33,33 @@ public class Bgmenu {
 	}
 
 	@Test
-	public void searchRestaurant1() {
-		driver.findElement(By.cssSelector("#imysearchstring")).sendKeys("ул. Черковна, София " + Keys.RETURN);
-		
+	public void searchOshipka() {
+		driver.findElement(By.cssSelector("#imysearchstring")).sendKeys("ул. Черковна, София ");
 		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-		WaitTool.waitForElement(driver, By.id(".filter-wrapper>.title"), 10);	
-		
+		WaitTool.waitForElement(driver, By.id("#reference[data-name='ул. „Черковна“, София']"), 5);
+		driver.findElement(By.cssSelector("#reference[data-name='ул. „Черковна“, София']")).click();
+
+		WaitTool.waitForElement(driver, By.cssSelector(".filter-wrapper>.title"), 5);
+
 		WebElement oShipka = driver.findElement(By.cssSelector("a[href*=\"/bg/oshipka\"]>.restlogo"));
 		oShipka.click();
 		assertEquals(driver.getTitle(), "О'шипка|O'shipka София - Пица в италиански стил - Takeaway.com");
-		
-	
-
-		
 
 	}
 
 	@Test
-	public void searchRestaurant2() {
-		
+	public void searchAnkona() {
+		driver.findElement(By.cssSelector("#imysearchstring")).sendKeys("Слатина");
+		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+		WaitTool.waitForElement(driver, By.id("#reference[data-name='Слатина, София'"), 5);
+		driver.findElement(By.cssSelector("#reference[data-name='Слатина, София'")).click();
+
+		WaitTool.waitForElement(driver, By.cssSelector(".filter-wrapper>.title"), 5);
+
+		WebElement ankona = driver.findElement(By.cssSelector("a[href*=\"bg/ancona-reduta\"]>.restlogo"));
+		ankona.click();
+		assertEquals(driver.getTitle(), "Ancona Reduta|Анкона Редута София - Пица в италиански стил , Италианска Поръчай храна за вкъщи - Takeaway.com");
+
 	}
 
 	@AfterMethod

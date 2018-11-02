@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18496" started-at="2018-11-01T14:38:10Z" finished-at="2018-11-01T14:38:28Z">
+  <suite name="Default suite" duration-ms="14297" started-at="2018-11-02T06:53:38Z" finished-at="2018-11-02T06:53:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18496" started-at="2018-11-01T14:38:10Z" finished-at="2018-11-01T14:38:28Z">
+    <test name="Default test" duration-ms="14297" started-at="2018-11-02T06:53:38Z" finished-at="2018-11-02T06:53:52Z">
       <class name="homework.Bgmenu">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="setUp" is-config="true" duration-ms="3970" started-at="2018-11-01T16:38:10Z" finished-at="2018-11-01T16:38:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="setUp" is-config="true" duration-ms="4033" started-at="2018-11-02T08:53:38Z" finished-at="2018-11-02T08:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchRestaurant1()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="searchRestaurant1" duration-ms="12184" started-at="2018-11-01T16:38:14Z" finished-at="2018-11-01T16:38:26Z">
+        <test-method status="PASS" signature="searchAnkona()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="searchAnkona" duration-ms="7939" started-at="2018-11-02T08:53:42Z" finished-at="2018-11-02T08:53:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchRestaurant1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="tearDown" is-config="true" duration-ms="2342" started-at="2018-11-01T16:38:26Z" finished-at="2018-11-01T16:38:28Z">
+        </test-method> <!-- searchAnkona -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homework.Bgmenu@47fd17e3]" name="tearDown" is-config="true" duration-ms="2313" started-at="2018-11-02T08:53:50Z" finished-at="2018-11-02T08:53:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

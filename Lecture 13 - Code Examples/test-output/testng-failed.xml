@@ -6,7 +6,7 @@
       <class name="homework.Bgmenu">
         <methods>
           <include name="tearDown"/>
-          <include name="searchRestaurant1"/>
+          <include name="searchAnkona"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- homework.Bgmenu -->
