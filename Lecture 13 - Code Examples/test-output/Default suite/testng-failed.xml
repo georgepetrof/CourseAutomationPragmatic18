@@ -5,8 +5,8 @@
     <classes>
       <class name="homework.Bgmenu">
         <methods>
+          <include name="makeOrder"/>
           <include name="tearDown"/>
-          <include name="searchAnkona"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- homework.Bgmenu -->
