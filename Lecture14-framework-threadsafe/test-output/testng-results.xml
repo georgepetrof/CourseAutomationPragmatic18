@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8906" started-at="2018-11-05T20:53:22Z" finished-at="2018-11-05T20:53:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8906" started-at="2018-11-05T20:53:22Z" finished-at="2018-11-05T20:53:30Z">
+      <class name="bg.pragmatic.tests.negative.AdminLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:bg.pragmatic.tests.negative.AdminLoginTest@2fc14f68]" name="setup" is-config="true" duration-ms="7200" started-at="2018-11-05T22:53:22Z" finished-at="2018-11-05T22:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="unsuccessfulLoginTest()[pri:0, instance:bg.pragmatic.tests.negative.AdminLoginTest@2fc14f68]" name="unsuccessfulLoginTest" duration-ms="904" started-at="2018-11-05T22:53:29Z" finished-at="2018-11-05T22:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:bg.pragmatic.tests.negative.AdminLoginTest@2fc14f68]" name="tearDown" is-config="true" duration-ms="784" started-at="2018-11-05T22:53:30Z" finished-at="2018-11-05T22:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bg.pragmatic.tests.negative.AdminLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

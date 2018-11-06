@@ -23,7 +23,7 @@ public class Bgmenu {
 
 	public static WebDriver driver;
 
-	public static String mail = "1224232ffff@mailinator.com";
+	public static String mail = "122423j2ffff@mailinator.com";
 	public static String pass = "123456789@Aa";
 
 	@BeforeMethod
