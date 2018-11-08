@@ -17,20 +17,23 @@ public class AdminUserTests {
 	public void createAdministratorUser() {
 		AdminUser.open();
 		AdminUser.login("admin", "parola123!");
-		AdminUser.addNewAdmin();
+		AdminUser.addNewAdmin("newuser", "ivan", "ivan", "ivan@gmail.com", "1234", "1234");
+
 		AdminUser.verifyCreateAdmin();
 
 	}
 
 	@Test
-	public void createDemonstratorUser() {
-		AdminUser.open();
-		AdminUser.addNewDemonstrator();
-		AdminUser.verifyCreateDemonstator();
+	public void deleteUser() {
+		AdminUser.openUserPanel();
+		AdminUser.deleteUser();
+		AdminUser.verifyDeletingOfUser();
+
 	}
 
-	//@AfterMethod
-	//public void tearDown() {
-	//	Browser.quit();
-	//}
+	@AfterMethod
+	public void tearDown() {
+		Browser.quit();
+
+	}
 }
