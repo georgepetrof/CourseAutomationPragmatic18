@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8994" started-at="2018-11-07T18:31:38Z" finished-at="2018-11-07T18:31:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8994" started-at="2018-11-07T18:31:38Z" finished-at="2018-11-07T18:31:47Z">
+      <class name="bg.pragmatic.datadriven.ExcelTestData">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="setUp" is-config="true" duration-ms="6046" started-at="2018-11-07T20:31:38Z" finished-at="2018-11-07T20:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBMICalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="testBMICalculator" duration-ms="396" started-at="2018-11-07T20:31:45Z" data-provider="testData" finished-at="2018-11-07T20:31:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[160]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17.6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Underweight]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMICalculator -->
+        <test-method status="PASS" signature="testBMICalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="testBMICalculator" duration-ms="212" started-at="2018-11-07T20:31:45Z" data-provider="testData" finished-at="2018-11-07T20:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[168]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMICalculator -->
+        <test-method status="PASS" signature="testBMICalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="testBMICalculator" duration-ms="216" started-at="2018-11-07T20:31:46Z" data-provider="testData" finished-at="2018-11-07T20:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[181]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Overweight]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMICalculator -->
+        <test-method status="PASS" signature="testBMICalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="testBMICalculator" duration-ms="215" started-at="2018-11-07T20:31:46Z" data-provider="testData" finished-at="2018-11-07T20:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[178]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31.6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Obesity]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMICalculator -->
+        <test-method status="PASS" signature="testBMICalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="testBMICalculator" duration-ms="181" started-at="2018-11-07T20:31:46Z" data-provider="testData" finished-at="2018-11-07T20:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter Height]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMICalculator -->
+        <test-method status="PASS" signature="testBMICalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="testBMICalculator" duration-ms="153" started-at="2018-11-07T20:31:46Z" data-provider="testData" finished-at="2018-11-07T20:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[181]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[<Blank>]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter Weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMICalculator -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:bg.pragmatic.datadriven.ExcelTestData@7907ec20]" name="tearDown" is-config="true" duration-ms="732" started-at="2018-11-07T20:31:46Z" finished-at="2018-11-07T20:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bg.pragmatic.datadriven.ExcelTestData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

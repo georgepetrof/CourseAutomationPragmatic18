@@ -13,7 +13,7 @@ public class Browser {
 	 * Opens a browser and maximizes it, then sets 10 seconds implicit wait
 	 */
 	public static void openBrowser() {
-		System.setProperty("webdriver.chrome.driver", "E:\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\DEV\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

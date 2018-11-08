@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.backend.AdminLoginTests">
+      <class name="tests.backend.AdminUserTests">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="unsuccessfulLogin"/>
+          <include name="tearDown"/>
+          <include name="createAdministratorUser"/>
         </methods>
-      </class> <!-- tests.backend.AdminLoginTests -->
+      </class> <!-- tests.backend.AdminUserTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
