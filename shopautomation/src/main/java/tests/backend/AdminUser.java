@@ -9,6 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+
+
 import utils.Browser;
 
 public class AdminUser {
@@ -26,6 +28,7 @@ public class AdminUser {
 
 	public static void addNewAdmin(String username, String firstname, String lastname, String email, String pass,
 			String confpass) {
+
 		Browser.driver.findElement(By.cssSelector("#menu-system")).click();
 		Browser.driver.findElement(By.cssSelector("#collapse42 li a[href*=\"43\"]")).click();
 		Browser.driver.findElement(By.cssSelector("#collapse43 li a[href*=\"user&user\"]")).click();
